@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-pg+6p+&@=26^w74u1w=(17+96vwzwq6qi3epn*+&q)ude^e2_7
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-
+CSRF_TRUSTED_ORIGINS = [" https://hospital-care-6ac5.onrender.com "]
 
 # Application definition
 
